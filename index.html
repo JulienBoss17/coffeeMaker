@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="present">
+            <h1>Voici mon site</h1>
+            <p>Veuillez configurez votre café à votre guise.</p>
+        </div>
+        <div class="config">
+            <div>
+                <h1>Fait ton café</h1>
+                <button id="myButton">Démarrer la machine à café</button>
+            </div>
+            <div>
+                <p>Statut de la machine :</p>
+                <p id="status" class="inactive">La machine est éteinte</p>
+            </div>
+            <div>
+                <p>Tu veux quoi ?</p>
+                <button class="taste">Café</button>
+                <button class="taste">Café vanille</button>
+                <button class="taste">Café noisette</button>
+                <p id="coffeeTaste">Tu n'as pas encore choisis ce que tu veux.</p>
+            </div>
+            <div>
+                <p>Tu veux quel type de café :</p>
+                <button class="type">Court</button>
+                <button class="type">Long</button>
+                <p id="coffeeType">Tu n'as pas encore choisis ton type de café.</p>
+            </div>
+            <div>
+                <p>Tu veux combien de sucre ?</p>
+                <button class="sugar">0</button>
+                <button class="sugar">1</button>
+                <button class="sugar">2</button>
+                <button class="sugar">3</button>
+                <button class="sugar">4</button>
+                <p id="coffeeSugar">Tu n'as pas encore choisis de sucre.</p>
+            </div>
+            <div>
+                <button id="validation">Je valide mon café</button>
+            </div>
+        </section>
+    <script src="app.js"></script>
+</body>
+</html>
